@@ -1,1 +1,1 @@
-node merge.js && git add .
+node merge.js && git add
