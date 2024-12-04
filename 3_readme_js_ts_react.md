@@ -1,5 +1,3 @@
-ctrl + shift + v - open preview
-
 ## Вопросы по javascript
 
 <details>
