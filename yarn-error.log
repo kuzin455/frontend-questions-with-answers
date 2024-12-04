@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kuzinpe\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add husky
+
+PATH: 
+  C:\Users\kuzinpe\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\kuzinpe\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Cygwin\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\kuzinpe\AppData\Local\Microsoft\WindowsApps;C:\Users\kuzinpe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kuzinpe\AppData\Roaming\npm;C:\Users\kuzinpe\go\bin;C:\Users\kuzinpe\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\kuzinpe\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\kuzinpe\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  20.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://npm.gnivc.ru/husky: authorization required to access package husky
+      at params.callback [as _callback] (C:\Users\kuzinpe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at self.callback (C:\Users\kuzinpe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:519:28)
+      at Request.<anonymous> (C:\Users\kuzinpe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:519:28)
+      at IncomingMessage.<anonymous> (C:\Users\kuzinpe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:633:28)
+      at IncomingMessage.emit (node:events:531:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "frontend-questions-with-answers",
+    "version": "1.0.0",
+    "description": "ctrl + shift + v - open preview",
+    "main": "merge.js",
+    "scripts": {
+      "merge": "node merge.js",
+      "precommit": "npm run merge"
+    },
+    "devDependencies": {
+      "husky": "^4.3.8"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kuzin455/frontend-questions-with-answers.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kuzin455/frontend-questions-with-answers/issues"
+    },
+    "homepage": "https://github.com/kuzin455/frontend-questions-with-answers#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
