@@ -1,0 +1,21 @@
+{
+  "name": "frontend-questions-with-answers",
+  "version": "1.0.0",
+  "description": "ctrl + shift + v - open preview",
+  "main": "merge.js",
+  "scripts": {
+  "merge": "node merge.js",
+  "precommit": "npm run merge"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuzin455/frontend-questions-with-answers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuzin455/frontend-questions-with-answers/issues"
+  },
+  "homepage": "https://github.com/kuzin455/frontend-questions-with-answers#readme"
+}
