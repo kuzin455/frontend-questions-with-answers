@@ -4,8 +4,7 @@
   "description": "ctrl + shift + v - open preview",
   "main": "merge.js",
   "scripts": {
-    "merge": "node merge.js",
-    "prepare": "husky install"
+    "merge": "node merge.js"
   },
   "devDependencies": {
     "husky": "^9.1.7"
@@ -23,7 +22,13 @@
   "homepage": "https://github.com/kuzin455/frontend-questions-with-answers#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "npm run merge"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.(ts|tsx)": [
+      "ff-lint --fix",
+      "git add"
+    ]
   }
 }
