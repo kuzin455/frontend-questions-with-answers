@@ -5,7 +5,7 @@
   "main": "merge.js",
   "scripts": {
     "merge": "node merge.js",
-    "precommit": "npm run merge"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "husky": "^9.1.7"
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/kuzin455/frontend-questions-with-answers#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "merge"
+      "pre-commit": "npm run merge"
     }
   }
 }
