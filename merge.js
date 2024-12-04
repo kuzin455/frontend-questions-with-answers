@@ -10,13 +10,11 @@ const files = fs
 files.sort();
 
 // Читаем содержимое файлов и объединяем их
-let combinedContent = '';
 files.forEach((file) => {
   const content = fs.readFileSync(path.join(__dirname, file), 'utf8');
-  combinedContent += `\n\n## ${file}\n\n` + content; // Добавляем заголовок с именем файла
 });
 
 // Записываем результат в README.md
-fs.writeFileSync(path.join(__dirname, 'README.md'), combinedContent, 'utf8');
+fs.writeFileSync(path.join(__dirname, 'README.md'), '===============', 'utf8');
 
 console.log('Файлы объединены в README.md');
