@@ -22,7 +22,7 @@
   "homepage": "https://github.com/kuzin455/frontend-questions-with-answers#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run merge && git add"
     }
   },
   "lint-staged": {
